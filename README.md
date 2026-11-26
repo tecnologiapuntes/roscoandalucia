@@ -1,3 +1,13 @@
+# Rosco 4D Andalucía — V5.3.1 · Cambio de turno visible
+
+Esta edición mantiene todas las funciones de la V5.3 y añade un **cartel a pantalla completa de cambio de turno** en los duelos cuando se produce Pasapalabra, un fallo (tras ver la respuesta y pulsar continuar) o se agota el tiempo de un equipo. Aparece durante 1,9 segundos, se puede cerrar tocándolo y **el cronómetro queda detenido durante el cartel**. Todo en verdes de Andalucía.
+
+La misma función está incluida en `index.html`, en `Rosco_4D_V5_3_1_LISTO_PARA_PDI.html` y en los HTML personalizados que exporte el profesorado. No se han modificado los bancos de 216 preguntas, las reglas de puntuación ni el editor.
+
+## Publicación
+
+Para actualizar el sitio ya publicado en GitHub Pages, basta con sustituir el archivo `index.html`, hacer **Commit to main → Push origin**. Los archivos adicionales de este ZIP sirven para uso offline y documentación.
+
 # Rosco 4D Andalucía — V5.3 · Vista Concurso · @tecnologiainsti
 
 Versión basada en V5.2 Tecnología Insti. Mantiene el editor, banco de 216 preguntas, ayudas, solucionario, HTML autónomo sin conexión, cronómetros independientes, comodines, modo presentador, deshacer, vista previa y repaso de errores. Sin lector de voz.
