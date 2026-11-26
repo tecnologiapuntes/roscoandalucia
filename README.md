@@ -1,4 +1,4 @@
-# Rosco 4D Andalucía — V5.3.1 · Cambio de turno visible
+# Rosco 4D Andalucía — V5.3.2 · Cambio de turno visible
 
 Esta edición mantiene todas las funciones de la V5.3 y añade un **cartel a pantalla completa de cambio de turno** en los duelos cuando se produce Pasapalabra, un fallo (tras ver la respuesta y pulsar continuar) o se agota el tiempo de un equipo. Aparece durante 1,9 segundos, se puede cerrar tocándolo y **el cronómetro queda detenido durante el cartel**. Todo en verdes de Andalucía.
 
@@ -10,7 +10,6 @@ Para actualizar el sitio ya publicado en GitHub Pages, basta con sustituir el ar
 
 # Rosco 4D Andalucía — V5.3 · Vista Concurso · @tecnologiainsti
 
-Versión basada en V5.2 Tecnología Insti. Mantiene el editor, banco de 216 preguntas, ayudas, solucionario, HTML autónomo sin conexión, cronómetros independientes, comodines, modo presentador, deshacer, vista previa y repaso de errores. Sin lector de voz.
 
 ## Novedades V5.3
 
@@ -19,7 +18,6 @@ Versión basada en V5.2 Tecnología Insti. Mantiene el editor, banco de 216 preg
 3. **Turnos visibles**: equipo activo destacado, el otro rosco sigue presente.
 4. **Adaptación para PDI**: estilos específicos para pantallas 1024×768, 1366×768 y Full HD y controles táctiles.
 5. **Cronómetros**: dos contadores visibles dentro de los paneles de cada equipo, avisos de 30 y 10 segundos.
-6. **Modo presentador**: cuando se usa con Vista Concurso mantiene los dos roscos visibles.
 7. **Final de duelo**: compara gráficamente los dos roscos completos y sus resultados.
 
 ## Publicación GitHub Pages
@@ -33,3 +31,10 @@ Abrir `Rosco_4D_V5_3_LISTO_PARA_PDI.html` en Chrome o Edge. También se puede ab
 ## Comportamiento de respuestas
 
 La respuesta escrita solo se acepta al coincidir con una solución completa válida. Una letra aislada nunca puntúa. Los botones Correcto/Fallo/Pasapalabra de la PDI son acciones explícitas del docente.
+
+
+## V5.3.2 — Dos vistas, roscos siempre visibles
+
+Se ha eliminado el modo presentador por resultar redundante y ocultar el rosco en la vista clásica. Ahora están disponibles únicamente dos distribuciones de juego: **Vista clásica** (rosco grande del equipo activo) y **Vista Concurso** (dos roscos simultáneos en duelo). El botón **Ampliar para PDI** aumenta el tamaño del texto y los controles, sin ocultar ningún rosco. Se conservan las 216 preguntas, las ayudas, la descarga HTML personalizada, los cronómetros, los avisos, Deshacer y el cartel de cambio de equipo.
+
+Para publicar en GitHub Pages: sustituye solamente `index.html` y realiza Commit y Push en la rama principal. Los HTML personalizados anteriores no se actualizan automáticamente: vuelve a descargarlos desde la nueva versión.
